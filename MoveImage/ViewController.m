@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "ImageTransform.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet ImageTransform *showImage;
+
+- (IBAction)resetBtn:(id)sender;
 
 @end
 
@@ -18,6 +23,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // 呼叫 ImageTransform 的形變指定
+    [_showImage imgAction];
+    
+    //設定圖片給 ImageTransform
+    [_showImage setImage:[UIImage imageNamed:@"RobotDog.jpg"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +37,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)resetBtn:(id)sender {
+    [_showImage reset];
+}
 @end

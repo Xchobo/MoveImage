@@ -21,6 +21,8 @@
 		40A1318A18D75B26004C3D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A1316C18D75B26004C3D3E /* UIKit.framework */; };
 		40A1319218D75B26004C3D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40A1319018D75B26004C3D3E /* InfoPlist.strings */; };
 		40A1319418D75B26004C3D3E /* MoveImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A1319318D75B26004C3D3E /* MoveImageTests.m */; };
+		40A131A118D75BA3004C3D3E /* RobotDog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40A131A018D75BA3004C3D3E /* RobotDog.jpg */; };
+		40A131A418D75FF7004C3D3E /* ImageTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A131A318D75FF7004C3D3E /* ImageTransform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		40A1318F18D75B26004C3D3E /* MoveImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoveImageTests-Info.plist"; sourceTree = "<group>"; };
 		40A1319118D75B26004C3D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40A1319318D75B26004C3D3E /* MoveImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveImageTests.m; sourceTree = "<group>"; };
+		40A131A018D75BA3004C3D3E /* RobotDog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RobotDog.jpg; sourceTree = "<group>"; };
+		40A131A218D75FF7004C3D3E /* ImageTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransform.h; sourceTree = "<group>"; };
+		40A131A318D75FF7004C3D3E /* ImageTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,9 @@
 		40A1316E18D75B26004C3D3E /* MoveImage */ = {
 			isa = PBXGroup;
 			children = (
+				40A131A018D75BA3004C3D3E /* RobotDog.jpg */,
+				40A131A218D75FF7004C3D3E /* ImageTransform.h */,
+				40A131A318D75FF7004C3D3E /* ImageTransform.m */,
 				40A1317718D75B26004C3D3E /* AppDelegate.h */,
 				40A1317818D75B26004C3D3E /* AppDelegate.m */,
 				40A1317A18D75B26004C3D3E /* Main.storyboard */,
@@ -231,6 +239,7 @@
 				40A1318118D75B26004C3D3E /* Images.xcassets in Resources */,
 				40A1317318D75B26004C3D3E /* InfoPlist.strings in Resources */,
 				40A1317C18D75B26004C3D3E /* Main.storyboard in Resources */,
+				40A131A118D75BA3004C3D3E /* RobotDog.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 			files = (
 				40A1317F18D75B26004C3D3E /* ViewController.m in Sources */,
 				40A1317918D75B26004C3D3E /* AppDelegate.m in Sources */,
+				40A131A418D75FF7004C3D3E /* ImageTransform.m in Sources */,
 				40A1317518D75B26004C3D3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
